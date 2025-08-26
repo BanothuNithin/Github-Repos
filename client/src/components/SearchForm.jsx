@@ -12,7 +12,7 @@ function SearchForm({ onSearch }) {
       return;
     }
     try {
-      await axios.post("http://localhost:5000/api/repos/search", { keyword, page: 1 });
+      await axios.post("https://github-repos-2v9k.onrender.com/api/repos/search", { keyword, page: 1 });
       setKeyword("");
       setError("");
       onSearch();
