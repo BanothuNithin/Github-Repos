@@ -11,7 +11,7 @@ function Dashboard() {
 
   const fetchResults = async (p = 1) => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/repos/results?page=${p}`);
+      const res = await axios.get(`https://github-repos-2v9k.onrender.com/api/repos/results?page=${p}`);
       setRepos(res.data.data);
       setPage(res.data.currentPage);
       setTotalPages(res.data.totalPages);
