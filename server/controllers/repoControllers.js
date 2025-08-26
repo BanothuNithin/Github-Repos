@@ -1,7 +1,7 @@
 import axios from "axios";
 import Repo from "../models/Repos.js";
 
-// @desc Fetch GitHub repos & save
+// Fetch GitHub repos & save
 export const searchRepos = async (req, res) => {
   try {
     const { keyword, page = 1 } = req.body;
@@ -32,7 +32,7 @@ export const searchRepos = async (req, res) => {
   }
 };
 
-// @desc Get stored results with pagination
+// Get stored results with pagination
 export const getResults = async (req, res) => {
   try {
     const page = parseInt(req.query.page) || 1;
