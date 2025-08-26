@@ -6,7 +6,7 @@ A full-stack web app to search GitHub repositories by keyword, store results in 
 
 ## 🚀 Live Demo
 
-- **Check it out->:** [https://your-frontend-url](https://github-repos-client.onrender.com/)
+- **Check it out->:** [https://Rpeo-Project](https://github-repos-client.onrender.com/)
 ---
 
 ## 🗂️ Features
@@ -85,8 +85,8 @@ MONGODB_URI="mongodb+srv://bnithinnaik:<db_password>@cluster0.ldxawtg.mongodb.ne
 
 ## 📦 Deployment
 
-- Backend deployed on Render: [your-backend-url](https://github-repos-2v9k.onrender.com)
-- Frontend deployed on Vercel/Netlify/Render: [your-frontend-url](https://github-repos-client.onrender.com/)
+- Backend deployed on Render: [Backend-url](https://github-repos-2v9k.onrender.com)
+- Frontend deployed on Vercel/Netlify/Render: [Frontend-url](https://github-repos-client.onrender.com/)
 
 ---
 
